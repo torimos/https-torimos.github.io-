@@ -1,5 +1,11 @@
+import Logger = require('./utils/logger');
+
+
 class App {
     public main(){
-        console.log(this);
+        var log = new Logger.Logger();
+        log.write({message: "Test1"});
     }
 }
+
+export {App};

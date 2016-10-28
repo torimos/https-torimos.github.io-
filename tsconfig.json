@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        // "experimentalDecorators": true,
+        // "emitDecoratorMetadata": true,
+        // "lib": [
+        //     "es2015", "es5", "dom"
+        // ],
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "declaration": true,
+        "jsx": "react"
+    },
+    "compileOnSave": true
+}
