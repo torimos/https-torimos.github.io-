@@ -4,15 +4,17 @@
 <head>
 	<title>TypeScript</title>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="/built/www/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="/www/appBundle.js"></script>
 </head>
 <body>
     <div id="root">
         <h2>Loading...</h2>
     </div>
     <script type="text/javascript">
-        var app = new App();
-        app.main();
+        var app = new page.App();
+        app.main($("#root")[0]);
     </script>
 </body>
 </html>
