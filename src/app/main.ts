@@ -7,5 +7,3 @@ class App {
         log.write({message: "Test1"});
     }
 }
-
-export {App};

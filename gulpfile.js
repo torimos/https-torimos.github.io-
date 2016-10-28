@@ -28,8 +28,12 @@ gulp.task('compile', function () {
     ]);
 });
 
-gulp.task('default', ['clean', 'compile'], function(){});
+gulp.task('recompile', ['clean'], function(){
+    gulp.start('compile');
+});
 
-gulp.task('watch', ['default'], function() {
+gulp.task('default', ['recompile'], function(){});
+
+gulp.task('watch', [], function() {
     gulp.watch(paths.input, ['default']);
 });
