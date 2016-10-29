@@ -4,9 +4,9 @@ import * as jQuery from 'jquery';
 import Logger = require('./utils/logger');
 
 export class App {
-    public main(placeholder: Element){
+    static render(placeholder: Element){
         ReactDOM.render((<div>Hello</div>), jQuery(placeholder)[0]);
         var log = new Logger.Logger();
-        log.write({message: "Test1"});
+        log.write({message: "Test123"});
     }
 }

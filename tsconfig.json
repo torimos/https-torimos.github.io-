@@ -11,7 +11,9 @@
         "noImplicitAny": true,
         "noEmitOnError": true,
         "sourceMap": true,
-        "declaration": true
+        // "declaration": true,
+        "allowJs": true,
+        "outDir": "built"
     },
     "compileOnSave": true
 }

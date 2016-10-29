@@ -18,20 +18,20 @@
   "homepage": "https://github.com/torimos/my-project#readme",
   "devDependencies": {
     "@types/jquery": "^2.0.33",
+    "@types/react": "^0.14.43",
+    "@types/react-dom": "^0.14.18",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^2.2.0",
     "gulp-typescript": "^3.1.1",
-    "jquery": "^3.1.1",
     "merge2": "^1.0.2",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.9.5",
-    "typescript": "^2.0.6"
+    "typescript": "^2.0.6",
+    "awesome-typescript-loader": "^2.2.4"
   },
   "dependencies": {
-    "@types/react": "^0.14.43",
-    "@types/react-dom": "^0.14.18",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "jquery": "^3.1.1"
   }
 }
