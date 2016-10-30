@@ -9,16 +9,26 @@
         //     "es2015", "es5", "dom"
         // ],
         "noImplicitAny": true,
-        "noEmitOnError": true,
+        "noEmitOnError": false,
         "sourceMap": true,
+        "preserveConstEnums": true,
         // "declaration": true,
-        "allowJs": true,
+
+        "traceResolution": true,
+        "moduleResolution": "node",
+
+        "allowJs": false,
+        "baseUrl": ".",
         "outDir": "built"
     },
     "exclude": [
         "node_modules",
         "www",
         "built"
+    ],
+    "files": [
+    ],
+    "path": [
     ],
     "compileOnSave": true
 }
