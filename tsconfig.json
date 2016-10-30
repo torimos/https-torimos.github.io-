@@ -15,5 +15,10 @@
         "allowJs": true,
         "outDir": "built"
     },
+    "exclude": [
+        "node_modules",
+        "www",
+        "built"
+    ],
     "compileOnSave": true
 }
